@@ -1,6 +1,6 @@
 # QueryMate: AI-Powered Real-Time Chatbot
 
-QueryMate is a **Streamlit-based AI chatbot** that provides real-time responses to queries about currency, gold rates, and general questions using the Hugging Face model `openai/gpt-oss-120b:groq`.  
+QueryMate is a **Streamlit-based AI chatbot** that provides real-time responses to queries about general questions using the Hugging Face model `openai/gpt-oss-120b:groq`.  
 
 ![QueryMAte](QueryMate.png)
 
@@ -31,18 +31,18 @@ All setup can be done using the **`setup_and_run.sh`** script.
 
 ### **Step 1: Clone the repository**
 
-git clone <your-repo-url>
-cd <your-repo-folder>
+- git clone <your-repo-url>
+- cd <your-repo-folder>
 
 ### **Step 2: Add your API token to your ~/.zshrc:**
 
-echo 'export HF_API_TOKEN="your_huggingface_api_token"' >> ~/.zshrc
-source ~/.zshrc
+- echo 'export HF_API_TOKEN="your_huggingface_api_token"' >> ~/.zshrc
+- source ~/.zshrc
 
 ### **Step 3: Run the script**
 
-chmod +x setup_and_run.sh
-./setup_and_run.sh
+- chmod +x setup_and_run.sh
+- ./setup_and_run.sh
 
 ---
 
