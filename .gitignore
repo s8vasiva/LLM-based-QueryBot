@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Conda environment
+myvenv/
+venv/
+
+# Environment variables
+.env
+
+# macOS files
+.DS_Store
+
+# Streamlit files
+.streamlit/
+
+# Hugging Face cache
+~/.cache/huggingface/
+
+# Logs
+*.log
+
+# VS Code workspace settings (optional)
+.vscode/
